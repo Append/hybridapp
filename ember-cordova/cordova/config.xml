@@ -12,7 +12,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-	<allow-navigation href="*"/>
+    <allow-navigation href="*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
@@ -28,4 +28,8 @@
         <variable name="XWALK_MODE" value="embedded" />
         <variable name="XWALK_MULTIPLEAPK" value="true" />
     </plugin>
+    <plugin name="cordova-plugin-device-motion" spec="~1.2.3" />
+    <plugin name="cordova-plugin-file-transfer" spec="~1.6.1" />
+    <plugin name="cordova-plugin-camera" spec="~2.3.1" />
+    <plugin name="cordova-plugin-media" spec="~2.4.1" />
 </widget>
